@@ -54,10 +54,7 @@ body {
 #menu1 {
   background-color: rgb(142, 191, 232);
   text-align: center;
-  border-bottom-right-radius: 45pt;
-  border-bottom-left-radius: 45pt;
-  border-top-left-radius: 45pt;
-  border-top-right-radius: 45pt;
+  border-radius: 45pt;
 }
 
 #menu {
@@ -71,9 +68,11 @@ body {
   color: black;
   margin-left: 100px;
 }
+
 .menupont:hover {
   color: blueviolet;
 }
+
 .card-body {
   height: 100%;
 }
@@ -94,18 +93,12 @@ body {
 
 #kepecskekepe {
   height: 200px;
-  border-bottom-left-radius: 45pt;
-  border-top-right-radius: 45pt;
-  border-bottom-right-radius: 45pt;
-  border-top-left-radius: 45pt;
+  border-radius: 45pt;
 }
 
 .kartya1 {
   background-color: rgb(200, 191, 231);
-  border-bottom-left-radius: 45pt;
-  border-top-right-radius: 45pt;
-  border-bottom-right-radius: 45pt;
-  border-top-left-radius: 45pt;
+  border-radius: 45pt;
   padding: 20px;
   width: 600px;
   margin-top: 70px;
@@ -120,16 +113,9 @@ body {
   text-align: left;
 }
 
-.hirlevel {
-  text-align: left;
-}
-
 .kartyaasvanylexikon {
   background-color: rgb(200, 191, 231);
-  border-bottom-left-radius: 45pt;
-  border-top-right-radius: 45pt;
-  border-bottom-right-radius: 45pt;
-  border-top-left-radius: 45pt;
+  border-radius: 45pt;
   padding: 25px;
   width: 900px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -137,10 +123,7 @@ body {
 
 .kartya3 {
   background-color: rgb(200, 191, 231);
-  border-bottom-left-radius: 45pt;
-  border-top-right-radius: 45pt;
-  border-bottom-right-radius: 45pt;
-  border-top-left-radius: 45pt;
+  border-radius: 45pt;
 }
 
 .resz {
@@ -150,10 +133,7 @@ body {
 
 .kepecskekepeá {
   height: 200px;
-  border-bottom-left-radius: 45pt;
-  border-top-right-radius: 45pt;
-  border-bottom-right-radius: 45pt;
-  border-top-left-radius: 45pt;
+  border-radius: 45pt;
   width: 250px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -215,4 +195,19 @@ body {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 20px;
+}
+
+.szoveg{
+  text-align: left;
+  font-size: 14pt;
+  
+}
+
+.szoveg1{
+  font-size: 16pt;
+}
+
+.link1{
+  color: black;
+  text-decoration: none;
 }
