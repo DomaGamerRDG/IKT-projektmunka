@@ -27,7 +27,7 @@ body {
   color: rgb(98, 112, 236);
 }
 
-#cim {
+.cim {
   color: rgb(83, 46, 152);
   text-align: center;
   margin-top: 15px;
@@ -158,7 +158,7 @@ body {
 }
 
 .bevitelimezo {
-  background-color: azure;
+  background-color: rgb(142, 191, 232);
 }
 
 .kartya50 {
@@ -210,4 +210,8 @@ body {
 .link1{
   color: black;
   text-decoration: none;
+}
+
+#sus{
+  margin-top: 40px;
 }
