@@ -11,7 +11,7 @@ body {
   height: 400px;
 }
 
-.kartyarolunk{
+.kartyarolunk {
   background-color: rgb(200, 191, 231);
   border-radius: 45pt;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,16 +42,16 @@ body {
   height: 80%;
 }
 
-#menupontt{
+.menupontt {
   color: black;
   margin-left: 100px;
 }
 
-#menupontt:hover {
+.menupontt:hover {
   color: blueviolet;
 }
 
-#menu1{
+#menu1 {
   background-color: rgb(142, 191, 232);
   text-align: center;
   border-bottom-right-radius: 45pt;
@@ -67,11 +67,11 @@ body {
   border-bottom-left-radius: 45pt;
 }
 
-#menupont {
+.menupont {
   color: black;
   margin-left: 100px;
 }
-#menupont:hover {
+.menupont:hover {
   color: blueviolet;
 }
 .card-body {
@@ -177,28 +177,28 @@ body {
   margin-right: 5px;
 }
 
-.bevitelimezo{
+.bevitelimezo {
   background-color: azure;
 }
 
-.kartya50{
+.kartya50 {
   background-color: rgb(200, 191, 231);
   border-radius: 45pt;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.menukep{
+.menukep {
   width: 50px;
   height: 40px;
 }
 
-.hkep{
+.hkep {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-#menuponth {
+.menuponth {
   color: black;
   max-width: auto;
   margin-left: 25px;
@@ -207,10 +207,10 @@ body {
 #menuh {
   background-color: rgb(142, 191, 232);
   text-align: center;
-border-radius: 45pt;
+  border-radius: 45pt;
 }
 
-#cimh{
+#cimh {
   color: rgb(83, 46, 152);
   text-align: center;
   margin-top: 15px;
