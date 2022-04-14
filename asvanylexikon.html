@@ -13,8 +13,10 @@
 <body>
 
     <div class="p-5 container container-fluid">
-        <h1 id="cim">Ásványlexikon</h1>
+        <h1 class="cim">Ásványlexikon</h1>
 
+        
+        
         <div>
             <nav class="navbar navbar-expand-sm justify-content-center" id="menu1">
                 <ul class="navbar-nav ">
@@ -37,6 +39,16 @@
             </nav>
         </div>
 
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <label for="cars">Keresés</label>
+        <select id="cars" name="cars">
+          <option value="rozsakvarc"><a href="asvanylexikon.html#rozskvarc">Rózsakvarc</a></option>
+          <option value="ametiszt"><a href="asvanylexikon.html#ametiszt">Ametiszt</a> </option>
+          <option value="achat">Achát</option>
+          <option value="malachit">Malachit</option>
+        </select>
+   
+
         <input type="text" class="keresomezo" id="lname" name="lname">
 
         <div class="row col-12 resz" id="rozsakvarc">
@@ -54,7 +66,7 @@
             </div>
 
             <div class="row col-12 resz" id="malachit">
-                <div class="card col-lg-6 kartyaasvanylexikon">
+                <div class=" kartyaasvanylexikon">
                     <h3>Malachit</h3>
                     A Malachit ásvány, az egyik legerősebb és legmisztikusabb kő. Minden kultúrában valamilyen
                     istennőnek szentelték és a mennyország kövének számított. Bábakőnek is nevezik, a nők
