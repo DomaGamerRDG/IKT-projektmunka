@@ -42,15 +42,6 @@ body {
   height: 80%;
 }
 
-.menupontt {
-  color: black;
-  margin-left: 100px;
-}
-
-.menupontt:hover {
-  color: blueviolet;
-}
-
 #menu1 {
   background-color: rgb(142, 191, 232);
   text-align: center;
