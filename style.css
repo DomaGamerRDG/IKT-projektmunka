@@ -19,8 +19,8 @@ body {
 
 .kepek {
   border-radius: 30pt;
-  width: 100%;
-  height: 50%;
+  width: 400px;
+  height: 200px;
 }
 
 .alcim {
@@ -190,7 +190,6 @@ body {
   margin-bottom: 20px;
 }
 
-
 .keresomezo {
   margin-top: 30px;
 }
@@ -198,7 +197,6 @@ body {
 .szoveg{
   text-align: left;
   font-size: 14pt;
-  
 }
 
 .szoveg1{
@@ -213,4 +211,3 @@ body {
 #sus{
   margin-top: 40px;
 }
-
