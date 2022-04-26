@@ -12,7 +12,7 @@ body {
 }
 
 .kartyarolunk {
-  background-color: rgb(200, 191, 231);
+  background: linear-gradient(45deg, white, rgb(200, 191, 231));
   border-radius: 45pt;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -46,6 +46,7 @@ body {
   background-color: rgb(142, 191, 232);
   text-align: center;
   border-radius: 45pt;
+  width: 100%;
 }
 
 #menu {
@@ -53,11 +54,13 @@ body {
   text-align: center;
   border-bottom-right-radius: 45pt;
   border-bottom-left-radius: 45pt;
+  width: 100%;
 }
 
 .menupont {
   color: black;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .menupont:hover {
