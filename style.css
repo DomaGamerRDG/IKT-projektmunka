@@ -12,15 +12,15 @@ body {
 }
 
 .kartyarolunk {
-  background-color: rgb(200, 191, 231);
+  background: linear-gradient(45deg, white, rgb(200, 191, 231));
   border-radius: 45pt;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .kepek {
   border-radius: 30pt;
-  width: 100%;
-  height: 50%;
+  width: 400px;
+  height: 200px;
 }
 
 .alcim {
@@ -42,6 +42,7 @@ body {
   height: 80%;
 }
 
+<<<<<<< HEAD
 .menupontt {
   color: black;
   margin-left: 50px;
@@ -52,10 +53,13 @@ body {
   color: blueviolet;
 }
 
+=======
+>>>>>>> 90a2a26880f2f5990475b1a626311a29c63fe7af
 #menu1 {
   background-color: rgb(142, 191, 232);
   text-align: center;
   border-radius: 45pt;
+  width: 100%;
 }
 
 #menu {
@@ -63,6 +67,7 @@ body {
   text-align: center;
   border-bottom-right-radius: 45pt;
   border-bottom-left-radius: 45pt;
+  width: 100%;
 }
 
 .menupont {
@@ -170,7 +175,7 @@ body {
 }
 
 .menukep {
-  width: 50px;
+  width: 40px;
   height: 40px;
 }
 
@@ -184,7 +189,8 @@ body {
 .menuponth {
   color: black;
   max-width: auto;
-  margin-left: 25px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
 }
 
 #menuh {
@@ -204,21 +210,24 @@ body {
   margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .szoveg{
+=======
+.szoveg {
+>>>>>>> 90a2a26880f2f5990475b1a626311a29c63fe7af
   text-align: left;
   font-size: 14pt;
-  
 }
 
-.szoveg1{
+.szoveg1 {
   font-size: 16pt;
 }
 
-.link1{
+.link1 {
   color: black;
   text-decoration: none;
 }
 
-#sus{
+#sus {
   margin-top: 40px;
 }
