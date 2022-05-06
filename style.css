@@ -44,7 +44,8 @@ body {
 
 .menupontt {
   color: black;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .menupontt:hover {
@@ -66,7 +67,8 @@ body {
 
 .menupont {
   color: black;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .menupont:hover {
@@ -198,12 +200,10 @@ body {
   margin-bottom: 20px;
 }
 
-
-<<<<<<< HEAD
 .keresomezo {
   margin-top: 30px;
 }
-=======
+
 .szoveg{
   text-align: left;
   font-size: 14pt;
@@ -222,4 +222,3 @@ body {
 #sus{
   margin-top: 40px;
 }
->>>>>>> 688ea1b766224c91d73786da4ae873309f8b38a9
