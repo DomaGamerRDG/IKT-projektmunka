@@ -99,7 +99,7 @@
             Szeretne értesülni legújabb hírleveleinkről?<br>
             Iratkozzon fel most!
           </p>
-          <form>
+          <form id="minden">
             <div class="row mb-2 align-items-center">
               <div class="col-3">
                 <label for="nev" class="col-form-label">Teljes név:</label>
@@ -131,7 +131,7 @@
               <label class="form-check-label" for="felh">Kijelentem, hogy elfogadom a <a href="https://info.ntak.hu/felhasznaloi-szabalyzat"
                   target="_blank" class="link">Felhasználói Szabályzatot!</a></label>
             </div>
-            <button type="reset" class="btn btn-primary ms-3">Küldés</button>
+            <button type="button" class="btn btn-primary ms-3" onclick="hirlevel()">Küldés</button>
           </form>
         </div>
       </div>
@@ -142,6 +142,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
