@@ -2,264 +2,320 @@
 <html lang="hu">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Horoszkópok</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Horoszkópok</title>
 </head>
 
 <body>
+ <button type="button" class="btn btn-floating" id="lebegovissza" onclick="history.back()">
+  <i class="bi bi-arrow-left-circle-fill" id="nagyobb"></i>
+</button>
 
-    <div class="p-5 container container-fluid">
-        <h1 id="cimh">Horoszkópok</h1>
+  <div class="container container-fluid">
+    <h1 id="cimh">Horoszkópok</h1>
 
-        <div>
-            <nav class="navbar navbar-expand-sm justify-content-center" id="menuh">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#bika" ><img class="menukep" src="kepek/bak.png"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#vizonto" ><img class="menukep" src="kepek/vizonto.png" title="Vízöntő"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#halak" ><img class="menukep" src="kepek/halak.jpg" title="Halak"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#kos" ><img class="menukep" src="kepek/kos.png" title="Kos"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#bika" ><img class="menukep" src="kepek/bika.jpg" title="Bika"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#ikrek" ><img class="menukep" src="kepek/ikrek.png" title="Ikrek"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#rak" ><img class="menukep" src="kepek/rak.png" title="Rák"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#oroszlan" ><img class="menukep" src="kepek/oroszlan.png" title="Oroszlán"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#szuz" ><img class="menukep" src="kepek/szuz.png" title="Szűz"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#merleg" ><img class="menukep" src="kepek/merleg.png" title="Mérleg"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#skorpio" ><img class="menukep" src="kepek/skorpio.png" title="Skorpió"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menuponth" href="horoszkopok.html#nyilas" ><img class="menukep" src="kepek/nyilas.jpg" title="NYilas"></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <i class="fa-solid fa-circle-arrow-left fa-lg" id="gombocska"></i>
+    <div>
+      <nav class="navbar navbar-expand-xl navbar-light px-2" id="menu1">
+        <a class="navbar-brand ms-3" href="index.html">Kristályok</a>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-        <div class="row justify-content-center col-12 resz " id="bak">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Bak</h3>
-                <h6>(12.22-01.20)</h6>
-                <p>Ha társaságban találkozunk valakivel, aki szerény, visszahúzódó, megfontolt és lassú beszédű, valamint zárkózott és bizalmatlan,
-                    biztosak lehetünk benne, hogy Bak jegyű. A felsorolt tulajdonságok közül legszembetűnőbb a bizalmatlanság. Senki másban, csak magukban bíznak, s
-                    őt azt hiszik, hogy csak az sikerülhet, amit saját kezűleg megcsinálnak. Ezért nem avatnak bele másokat terveikbe. Amit elhatároznak, azt meg is
-                    valósítják. A kapkodás, a sietség nem jellemző rájuk, annál inkább a kemény, kitartó, szívós munka. Ha kudarcok érik őket, attól sem kedvetlenednek
-                    el, hanem zokszó nélkül folytatják azt, amit elkezdtek.</p>
-                <p>
-                    Az ásvánoyd: <a href="asvanylexikon.html#onix">Ónix</a>
-                </p>
+        <div class="collapse navbar-collapse justify-content-end" id="collapse">
+          <div class="row me-3">
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#bika"><img class="menukep" src="kepek/bak.png" /></a>
             </div>
-
-        </div>
-
-        <div class="row justify-content-center col-12 resz" id="vizonto">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Vízöntő</h3>
-                <h6>(01.21-02.19)</h6>
-                <p>Különc vagy lángész, de mindenképpen rendkívüli személyiség. Akadályt nem ismerő, nagyra törő típus, erős akaratú, állhatatos
-                    és idealista. Szellemi függetlenségén féltőn őrködő, a művészetek és a tudományok terén otthonosan mozgó, állandóan újító, reformáló
-                    természetével sok hívet szerez. Humánus gondolkodású, szociális érzékenysége fejlett. Álarcot visel, és csak kevesen látnak mögé.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#akvamarin">Akvamarin</a>
-                </p>
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                title="Vízöntő" /></a>
             </div>
-
-        </div>
-
-        <div class="row justify-content-center col-12 resz" id="halak">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Halak</h3>
-                <h6>(02.20-03.20)</h6>
-                <p>A Halak jegyűek kicsit lassúak, kicsit bizonytalanok, de azért eszesek, szellemesek. Társaságban, a nyilvánosság előtt a szebbik arcukat
-                    mutatják és kedvességükkel, közvetlenségükkel mindig sikert aratnak. Ha azonban közelebbről megismerjük őket, akkor rá kell döbbennünk,
-                    hogy csak szerepet játszottak és elhangzott ígéreteiket, kijelentéseiket nem szabad teljesen komolyan vennünk, mert maguk sem gondolják komolyan.
-                    A Halak önállóságról is álmodoznak, de képtelenek meglenni biztos támasz nélkül. Ha esetleg komolyan bajba kerülnek, még inkább álmaikba menekülnek és
-                    az sem áll távol tőlük, hogy ital vagy drog után nyúljanak.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#ametiszt">Ametiszt</a>
-                </p>
-
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                title="Vízöntő" /></a>
             </div>
-
-        </div>
-
-
-
-        <div class="row justify-content-center col-12 resz" id="kos">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Kos</h3>
-                <h6>(03.21-04.20)</h6>
-                <p>A Kos soha nem néz hátra, csak előre. A mellékes körülmények nem érdeklik, mindig csak a cél lebeg a szeme előtt. Nem cselekszik megfontoltan, törtet előre,
-                    még akkor is, ha mindenki látja, hogy "fejjel megy a falnak". A bátorság, a vakmerőség, a merészség a legfőbb jellemzője. Ha esetleg kudarc éri vagy elbukik,
-                    akkor sem törik meg, új célokat keres magának, amelyeket rohamléptekkel igyekszik elérni. Ha megkísérlik őt visszatartani, keretek közé szorítani, akkor elveszti
-                    az érdeklődését, elkedvetlenedik.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#granat" target="_self">Gránát</a>
-                </p>
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                title="Vízöntő" /></a>
             </div>
-
-        </div>
-
-        <div class="row justify-content-center col-12 resz" id="bika">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Bika</h3>
-                <h6>(04.21-05.20)</h6>
-                <p>A Bika - ellentétben a Kossal - nem rohan, nem száguld, hanem szép lassan halad az útján. Alapossága, türelme, kitartása, állhatatossága révén akár a megbízhatóság
-                    jelképe is lehetne. Nyugodtan rá lehet bízni például anyagi ügyek intézését és azt, hogy távollétünkben őrizze, gondozza ingóságainkat vagy ingatlanunkat.
-                    Nála jobb gazdát keresve sem találnánk. A Bika típusú emberek között alig akad idealista, megrögzött álmodozó vagy olyan, aki illúziókat kerget. Mielőtt a
-                    Bika típusok bármihez hozzákezdenek, azt százszor is megfontolják.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#achat">Achát</a>
-                </p>
-
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                title="Vízöntő" /></a>
             </div>
-
-        </div>
-
-        <div class="row justify-content-center col-12 resz" id="ikrek">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Ikrek</h3>
-                <h6>(05.21-06.21)</h6>
-                <p>Az Ikrek jegy kettős jegy, akárcsak a Halak, ezért is használjuk mindig többes számban. A kettősség a jellemükben is megmutatkozik. Az Ikrek jegyű emberekben két
-                    (vagy több) lélek lakozik és mindegyik mást akar. Ebből is fakad, hogy az Ikrek jegyűek érdeklődése szerteágazó, s nem elégszenek meg azzal, hogy az élet valamely
-                    területén sikereket aratnak, ők ettől még nem lesznek boldogak. A kettősség csak mások számára szembetűnő, ők maguk természetes dolognak tartják.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#borostyan">Borostyán</a>
-                </p>
-
+            <div class="col-3 col-md-2 col-xl-1">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                title="Vízöntő" /></a>
             </div>
-
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+            <div class="col-3 col-md-2 col-xl-1"><a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+                </div>
+          </div>
+          <!-- <ul class="navbar-nav row">
+            <li class="nav-item col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#bika"><img class="menukep" src="kepek/bak.png" /></a>
+            </li>
+            <li class="nav-item  col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#vizonto"><img class="menukep" src="kepek/vizonto.png"
+                  title="Vízöntő" /></a>
+            </li>
+            <li class="nav-item  col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#halak"><img class="menukep" src="kepek/halak.jpg"
+                  title="Halak" /></a>
+            </li>
+            <li class="nav-item  col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#kos"><img class="menukep" src="kepek/kos.png"
+                  title="Kos" /></a>
+            </li>
+            <li class="nav-item  col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#bika"><img class="menukep" src="kepek/bika.jpg"
+                  title="Bika" /></a>
+            </li>
+            <li class="nav-item  col-1 col-md-2">
+              <a class="nav-link menuponth" href="horoszkopok.html#ikrek"><img class="menukep" src="kepek/ikrek.png"
+                  title="Ikrek" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#rak"><img class="menukep" src="kepek/rak.png"
+                  title="Rák" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#oroszlan"><img class="menukep"
+                  src="kepek/oroszlan.png" title="Oroszlán" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#szuz"><img class="menukep" src="kepek/szuz.png"
+                  title="Szűz" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#merleg"><img class="menukep" src="kepek/merleg.png"
+                  title="Mérleg" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#skorpio"><img class="menukep" src="kepek/skorpio.png"
+                  title="Skorpió" /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuponth" href="horoszkopok.html#nyilas"><img class="menukep" src="kepek/nyilas.jpg"
+                  title="NYilas" /></a>
+            </li>
+          </ul> -->
         </div>
+      </nav>
+    </div>
 
-        <div class="row justify-content-center col-12 resz" id="rak">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Rák</h3>
-                <h6>(06.22-07.22)</h6>
-                <p>A Rák típusú embereket túlzott érzékenységükről, szeszélyes hangulatváltozásaikról és remek megérzéseikről lehet leginkább felismerni. Ők azok, akik egyik pillanatban
-                    teljes odaadással lelkesednek valamiért, a másik pillanatban pedig lehangoltan legyintenek és láthatóan már nem érdekli őket, amit odáig nagyszerű dolognak tartottak.
-                    A hangulatváltozások a kívülállók számára általában megmagyarázhatatlanok és kiszámíthatatlanok, az asztrológia szerint viszont egyszerűen a Hold hatásával vannak összefüggésben.
-                    Ugyancsak a Hold hatásának tudható be, hogy a Rák emberek egyszer túlzottan óvatosak, bizalmatlanok, sőt gyanakvóak, máskor pedig túlságosan bizalmasak és meggondolatlanul
-                    kifecsegik titkaikat.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#holdko">Holdkő</a>
-                </p>
+    <div class="row justify-content-center">
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="bak">
+        <h3>Bak</h3>
+        <h6>(12.22-01.20)</h6>
+        <p>
+          Ha társaságban találkozunk valakivel, aki szerény, visszahúzódó, megfontolt és lassú
+          beszédű, valamint zárkózott és bizalmatlan, biztosak lehetünk benne, hogy Bak jegyű. A
+          felsorolt tulajdonságok közül legszembetűnőbb a bizalmatlanság. Senki másban, csak
+          magukban bíznak, s őt azt hiszik, hogy csak az sikerülhet, amit saját kezűleg
+          megcsinálnak. Ezért nem avatnak bele másokat terveikbe. Amit elhatároznak, azt meg is
+          valósítják. A kapkodás, a sietség nem jellemző rájuk, annál inkább a kemény, kitartó,
+          szívós munka. Ha kudarcok érik őket, attól sem kedvetlenednek el, hanem zokszó nélkül
+          folytatják azt, amit elkezdtek.
+        </p>
+        <p>Az ásvánoyd: <a href="asvanylexikon.html#onix">Ónix</a></p>
+      </div>
 
-            </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="vizonto">
+        <h3>Vízöntő</h3>
+        <h6>(01.21-02.19)</h6>
+        <p>
+          Különc vagy lángész, de mindenképpen rendkívüli személyiség. Akadályt nem ismerő, nagyra
+          törő típus, erős akaratú, állhatatos és idealista. Szellemi függetlenségén féltőn
+          őrködő, a művészetek és a tudományok terén otthonosan mozgó, állandóan újító, reformáló
+          természetével sok hívet szerez. Humánus gondolkodású, szociális érzékenysége fejlett.
+          Álarcot visel, és csak kevesen látnak mögé.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#akvamarin">Akvamarin</a></p>
+      </div>
 
-        </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="halak">
+        <h3>Halak</h3>
+        <h6>(02.20-03.20)</h6>
+        <p>
+          A Halak jegyűek kicsit lassúak, kicsit bizonytalanok, de azért eszesek, szellemesek.
+          Társaságban, a nyilvánosság előtt a szebbik arcukat mutatják és kedvességükkel,
+          közvetlenségükkel mindig sikert aratnak. Ha azonban közelebbről megismerjük őket, akkor
+          rá kell döbbennünk, hogy csak szerepet játszottak és elhangzott ígéreteiket,
+          kijelentéseiket nem szabad teljesen komolyan vennünk, mert maguk sem gondolják komolyan.
+          A Halak önállóságról is álmodoznak, de képtelenek meglenni biztos támasz nélkül. Ha
+          esetleg komolyan bajba kerülnek, még inkább álmaikba menekülnek és az sem áll távol
+          tőlük, hogy ital vagy drog után nyúljanak.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#ametiszt">Ametiszt</a></p>
+      </div>
 
-        <div class="row justify-content-center col-12 resz" id="oroszlan">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Oroszlán</h3>
-                <h6>(07.23-08.23)</h6>
-                <p>Az oroszlán az állatok királya. Nem véletlen tehát, hogy az Oroszlán jegyében születettekben is megmutatkozik az uralkodásra, vezetésre való hajlam. Önbizalomban nem szenvednek hiányt,
-                    sőt meg vannak győződve róla, hogy a sors azért ruházta fel őket nemes tulajdonságokkal, hogy ezáltal is kiemelkedjenek embertársaik közül. Az Oroszlán szülöttek fellépése határozott,
-                    magabiztos, tekintélyt parancsoló. A társaságban igyekeznek azonnal a középpontba kerülni. Náluk jobban senki nem élvezi, ha körüludvarolják, körülrajongják őket.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#hegyikristaly">Hegyikristály</a>
-                </p>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="kos">
+        <h3>Kos</h3>
+        <h6>(03.21-04.20)</h6>
+        <p>
+          A Kos soha nem néz hátra, csak előre. A mellékes körülmények nem érdeklik, mindig csak a
+          cél lebeg a szeme előtt. Nem cselekszik megfontoltan, törtet előre, még akkor is, ha
+          mindenki látja, hogy "fejjel megy a falnak". A bátorság, a vakmerőség, a merészség a
+          legfőbb jellemzője. Ha esetleg kudarc éri vagy elbukik, akkor sem törik meg, új célokat
+          keres magának, amelyeket rohamléptekkel igyekszik elérni. Ha megkísérlik őt
+          visszatartani, keretek közé szorítani, akkor elveszti az érdeklődését, elkedvetlenedik.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#granat" target="_self">Gránát</a></p>
+      </div>
 
-            </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="bika">
+        <h3>Bika</h3>
+        <h6>(04.21-05.20)</h6>
+        <p>
+          A Bika - ellentétben a Kossal - nem rohan, nem száguld, hanem szép lassan halad az
+          útján. Alapossága, türelme, kitartása, állhatatossága révén akár a megbízhatóság jelképe
+          is lehetne. Nyugodtan rá lehet bízni például anyagi ügyek intézését és azt, hogy
+          távollétünkben őrizze, gondozza ingóságainkat vagy ingatlanunkat. Nála jobb gazdát
+          keresve sem találnánk. A Bika típusú emberek között alig akad idealista, megrögzött
+          álmodozó vagy olyan, aki illúziókat kerget. Mielőtt a Bika típusok bármihez
+          hozzákezdenek, azt százszor is megfontolják.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#achat">Achát</a></p>
+      </div>
 
-        </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="ikrek">
+        <h3>Ikrek</h3>
+        <h6>(05.21-06.21)</h6>
+        <p>
+          Az Ikrek jegy kettős jegy, akárcsak a Halak, ezért is használjuk mindig többes számban.
+          A kettősség a jellemükben is megmutatkozik. Az Ikrek jegyű emberekben két (vagy több)
+          lélek lakozik és mindegyik mást akar. Ebből is fakad, hogy az Ikrek jegyűek érdeklődése
+          szerteágazó, s nem elégszenek meg azzal, hogy az élet valamely területén sikereket
+          aratnak, ők ettől még nem lesznek boldogak. A kettősség csak mások számára szembetűnő,
+          ők maguk természetes dolognak tartják.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#borostyan">Borostyán</a></p>
+      </div>
 
-        <div class="row justify-content-center col-12 resz" id="szuz">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Szűz</h3>
-                <h6>(08.24-09.23)</h6>
-                <p>A Szűz jegyűek is Mercuriusnak, az ész, a logika, a kereskedelem istenének gyermekei, akár csak az Ikrek, de ami a mentalitásukat illeti, az merőben különböző.
-                    A Szűz típusúak nagyon nehezen tudják megállni, hogy a hibákat szóvá ne tegyék, mert az örökös bírálat, kritizálás a lételemük.
-                    Társaságban jobbára szerények, tartózkodóak és inkább kérdeznek, mint beszélnek. Alkalmazkodóképességük és diplomáciai érzékük is kitűnő, de ezek nem velük született tulajdonságok,
-                    hanem abból adódnak, hogy kitűnő megfigyelők és szívesen vállalnak közvetítő szerepet ellentétes nézetek, vélemények között. A józan, ésszerű gondolkodást mindennél fontosabbnak tartják,
-                    tetteiket mindig az ész, nem pedig az érzelem vezérlik.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#tigrisszem">Tigrisszem</a>
-                </p>
-            </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="rak">
+        <h3>Rák</h3>
+        <h6>(06.22-07.22)</h6>
+        <p>
+          A Rák típusú embereket túlzott érzékenységükről, szeszélyes hangulatváltozásaikról és
+          remek megérzéseikről lehet leginkább felismerni. Ők azok, akik egyik pillanatban teljes
+          odaadással lelkesednek valamiért, a másik pillanatban pedig lehangoltan legyintenek és
+          láthatóan már nem érdekli őket, amit odáig nagyszerű dolognak tartottak. A
+          hangulatváltozások a kívülállók számára általában megmagyarázhatatlanok és
+          kiszámíthatatlanok, az asztrológia szerint viszont egyszerűen a Hold hatásával vannak
+          összefüggésben. Ugyancsak a Hold hatásának tudható be, hogy a Rák emberek egyszer
+          túlzottan óvatosak, bizalmatlanok, sőt gyanakvóak, máskor pedig túlságosan bizalmasak és
+          meggondolatlanul kifecsegik titkaikat.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#holdko">Holdkő</a></p>
+      </div>
 
-        </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="oroszlan">
+        <h3>Oroszlán</h3>
+        <h6>(07.23-08.23)</h6>
+        <p>
+          Az oroszlán az állatok királya. Nem véletlen tehát, hogy az Oroszlán jegyében
+          születettekben is megmutatkozik az uralkodásra, vezetésre való hajlam. Önbizalomban nem
+          szenvednek hiányt, sőt meg vannak győződve róla, hogy a sors azért ruházta fel őket
+          nemes tulajdonságokkal, hogy ezáltal is kiemelkedjenek embertársaik közül. Az Oroszlán
+          szülöttek fellépése határozott, magabiztos, tekintélyt parancsoló. A társaságban
+          igyekeznek azonnal a középpontba kerülni. Náluk jobban senki nem élvezi, ha
+          körüludvarolják, körülrajongják őket.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#hegyikristaly">Hegyikristály</a></p>
+      </div>
 
-        <div class="row justify-content-center col-12 resz" id="merleg">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Mérleg</h3>
-                <h6>(09.24-10.23)</h6>
-                <p>A Mérleg szülöttek legfőbb törekvése, hogy megtalálják a tökéletes harmóniát, ugyanakkor már jelentéktelen apróságok is kibillenthetik őket lelki egyensúlyukból. Rendkívül engedékenyek,
-                    előzékenyek, ideális partnerek és munkatársak. A kisebb igazságtalanságokat inkább elviselik, csak ne kelljen harcolniuk vagy erőszakosan fellépniük. Ehhez ugyanis egyáltalán nincs se érzékük,
-                    se kedvük, ők minden helyzetben a béke apostolai. A Mérleg jegyűek cselekedeteiben az érzelmek játsszák a főszerepet. Ezért is rendkívül hullámzó a kedélyállapotuk: a hullámhegyek és a hullámvölgyek
-                    gyakorta váltogatják egymást a lelki életükben.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html">Jáspis</a>
-                </p>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="szuz">
+        <h3>Szűz</h3>
+        <h6>(08.24-09.23)</h6>
+        <p>
+          A Szűz jegyűek is Mercuriusnak, az ész, a logika, a kereskedelem istenének gyermekei,
+          akár csak az Ikrek, de ami a mentalitásukat illeti, az merőben különböző. A Szűz
+          típusúak nagyon nehezen tudják megállni, hogy a hibákat szóvá ne tegyék, mert az örökös
+          bírálat, kritizálás a lételemük. Társaságban jobbára szerények, tartózkodóak és inkább
+          kérdeznek, mint beszélnek. Alkalmazkodóképességük és diplomáciai érzékük is kitűnő, de
+          ezek nem velük született tulajdonságok, hanem abból adódnak, hogy kitűnő megfigyelők és
+          szívesen vállalnak közvetítő szerepet ellentétes nézetek, vélemények között. A józan,
+          ésszerű gondolkodást mindennél fontosabbnak tartják, tetteiket mindig az ész, nem pedig
+          az érzelem vezérlik.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#tigrisszem">Tigrisszem</a></p>
+      </div>
 
-            </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="merleg">
+        <h3>Mérleg</h3>
+        <h6>(09.24-10.23)</h6>
+        <p>
+          A Mérleg szülöttek legfőbb törekvése, hogy megtalálják a tökéletes harmóniát, ugyanakkor
+          már jelentéktelen apróságok is kibillenthetik őket lelki egyensúlyukból. Rendkívül
+          engedékenyek, előzékenyek, ideális partnerek és munkatársak. A kisebb
+          igazságtalanságokat inkább elviselik, csak ne kelljen harcolniuk vagy erőszakosan
+          fellépniük. Ehhez ugyanis egyáltalán nincs se érzékük, se kedvük, ők minden helyzetben a
+          béke apostolai. A Mérleg jegyűek cselekedeteiben az érzelmek játsszák a főszerepet.
+          Ezért is rendkívül hullámzó a kedélyállapotuk: a hullámhegyek és a hullámvölgyek
+          gyakorta váltogatják egymást a lelki életükben.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html">Jáspis</a></p>
+      </div>
 
-        </div>
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="skorpio">
+        <h3>Skorpió</h3>
+        <h6>(10.24-11.22)</h6>
+        <p>
+          A Skorpió jegyűek általában erőszakosak, de ők maguk ezt észre sem veszik, mint ahogy
+          azt sem, hogy mennyire bántóan tudnak másokkal szemben viselkedni. Ha figyelmeztetik
+          őket, csodálkoznak és teljesen őszinték, amikor azt mondják, hogy senkit sem akartak
+          bántani. Furcsa és ellentmondásos tulajdonságuk az is, hogy miközben mindenkibe
+          belemarnak, ugyanakkor ők maguk túlérzékenyek. A bizalmatlanság szintjéig zárkózottak,
+          ugyanakkor imádnak mások titkaiban kutatni, mások magánügyeiben vájkálni. Megérzéseik
+          kitűnőek, sőt az sem ritka, hogy megálmodják a várható eseményeket vagy egy problémára
+          az ideális megoldását.
+        </p>
+        <p>Az ásványod: <a href="asvanylexikon.html#malachit">Malachit</a></p>
+      </div>
 
-        <div class="row justify-content-center col-12 resz" id="skorpio">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Skorpió</h3>
-                <h6>(10.24-11.22)</h6>
-                <p>A Skorpió jegyűek általában erőszakosak, de ők maguk ezt észre sem veszik, mint ahogy azt sem, hogy mennyire bántóan tudnak másokkal szemben viselkedni. Ha figyelmeztetik őket, csodálkoznak és teljesen őszinték,
-                    amikor azt mondják, hogy senkit sem akartak bántani. Furcsa és ellentmondásos tulajdonságuk az is, hogy miközben mindenkibe belemarnak, ugyanakkor ők maguk túlérzékenyek. A bizalmatlanság szintjéig zárkózottak,
-                    ugyanakkor imádnak mások titkaiban kutatni, mások magánügyeiben vájkálni. Megérzéseik kitűnőek, sőt az sem ritka, hogy megálmodják a várható eseményeket vagy egy problémára az ideális megoldását.
-                </p>
-                <p>
-                    Az ásványod: <a href="asvanylexikon.html#malachit">Malachit</a>
-                </p>
-
-            </div>
-
-        </div>
-
-        <div class="row justify-content-center col-12 resz" id="nyilas">
-            <div class="card col-lg-6 kartyaasvanylexikon">
-                <h3>Nyilas</h3>
-                <h6>(11.23-12.21)</h6>
-                <p>A Nyilas jegyűek őszinték, nyíltak, ennek ellenére ők is kiszámíthatatlanok. Gyakran okoznak meglepetést azzal, hogy egy hirtelen ötlettől vezérelve olyat tesznek, mondanak, amit senki sem várt tőlük. Ők a nagy idealisták,
-                    akik az új eszmékért végtelenül tudnak lelkesedni. Kezdeti lelkesedésük azonban hamarosan alábbhagy, és ha szóba hozzák előttük a témát, csak unottan legyintenek. Szalmaláng természetük a vitákban, veszekedésekben is
-                    megmutatkozik. Ha valami miatt mérgesek, haragjuk egyik percről a másikra elmúlik. Ez persze nem jelenti azt, hogy nem eléggé büszkék és nem elég önérzetesek. Az igazság az, hogy csak a jelentéktelen sérelmeket felejtik el
-                    ilyen hamar, a komolyabb csalódások okozta lelki sérülések nyomait sokáig viselik
-                </p>
-                <p>
-                    Az ásványa: <a href="asvanylexikon.html#turkiz">Türkiz</a>
-                </p>
-
-            </div>
-
-        </div>
-
+      <div class="m-3 kartyaasvanylexikon col-lg-9" id="nyilas">
+        <h3>Nyilas</h3>
+        <h6>(11.23-12.21)</h6>
+        <p>
+          A Nyilas jegyűek őszinték, nyíltak, ennek ellenére ők is kiszámíthatatlanok. Gyakran
+          okoznak meglepetést azzal, hogy egy hirtelen ötlettől vezérelve olyat tesznek, mondanak,
+          amit senki sem várt tőlük. Ők a nagy idealisták, akik az új eszmékért végtelenül tudnak
+          lelkesedni. Kezdeti lelkesedésük azonban hamarosan alábbhagy, és ha szóba hozzák előttük
+          a témát, csak unottan legyintenek. Szalmaláng természetük a vitákban, veszekedésekben is
+          megmutatkozik. Ha valami miatt mérgesek, haragjuk egyik percről a másikra elmúlik. Ez
+          persze nem jelenti azt, hogy nem eléggé büszkék és nem elég önérzetesek. Az igazság az,
+          hogy csak a jelentéktelen sérelmeket felejtik el ilyen hamar, a komolyabb csalódások
+          okozta lelki sérülések nyomait sokáig viselik
+        </p>
+        <p>Az ásványa: <a href="asvanylexikon.html#turkiz">Türkiz</a></p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

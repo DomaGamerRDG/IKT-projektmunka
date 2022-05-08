@@ -11,10 +11,18 @@ body {
   height: 400px;
 }
 
-.kartyarolunk {
-  background: linear-gradient(45deg, white, rgb(200, 191, 231));
+.card {
+  background: linear-gradient(45deg, rgb(179, 149, 208), rgba(200, 191, 231));
   border-radius: 45pt;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card1 {
+  background: linear-gradient(45deg, rgb(179, 149, 208), rgba(200, 191, 231));
+  border-radius: 45pt;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  text-align: left;
 }
 
 .kepek {
@@ -42,7 +50,6 @@ body {
   height: 80%;
 }
 
-<<<<<<< HEAD
 .menupontt {
   color: black;
   margin-left: 50px;
@@ -53,8 +60,6 @@ body {
   color: blueviolet;
 }
 
-=======
->>>>>>> 90a2a26880f2f5990475b1a626311a29c63fe7af
 #menu1 {
   background-color: rgb(142, 191, 232);
   text-align: center;
@@ -64,10 +69,11 @@ body {
 
 #menu {
   background-color: rgb(142, 191, 232);
+  /* text-align: center; */
+  border-bottom-right-radius: 15pt;
+  border-bottom-left-radius: 15pt;
   text-align: center;
-  border-bottom-right-radius: 45pt;
-  border-bottom-left-radius: 45pt;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .menupont {
@@ -116,15 +122,16 @@ body {
 }
 
 .hirlevel {
-  font-size: 200%;
+  font-size: 150%;
   text-align: left;
+  margin-top: 20px;
 }
 
 .kartyaasvanylexikon {
   background-color: rgb(200, 191, 231);
   border-radius: 45pt;
   padding: 25px;
-  width: 900px;
+  /* width: 900px; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -139,21 +146,24 @@ body {
 }
 
 .kepecskekepeá {
-  height: 200px;
+  /* height: 200px; */
   border-radius: 45pt;
-  width: 250px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* width: 250px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .kepecskeá {
   display: inline-block;
-  width: 50px;
+  /* width: 50px; */
+
 }
 
 .link {
   color: rgb(98, 112, 236);
   text-decoration: none;
 }
+
+
 
 #nyalizas {
   margin-top: 50px;
@@ -210,11 +220,7 @@ body {
   margin-top: 30px;
 }
 
-<<<<<<< HEAD
-.szoveg{
-=======
 .szoveg {
->>>>>>> 90a2a26880f2f5990475b1a626311a29c63fe7af
   text-align: left;
   font-size: 14pt;
 }
@@ -231,3 +237,21 @@ body {
 #sus {
   margin-top: 40px;
 }
+
+
+#lebegovissza {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(142,191,232,0);
+}
+#nagyobb {
+  font-size: 3rem;
+  color: rgba(0,0,0,0.60);
+}
+
+
+.tudd {
+  text-align: center;
+ }
+ 

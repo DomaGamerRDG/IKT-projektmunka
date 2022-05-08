@@ -1,177 +1,216 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Karkötők</title>
 </head>
+
 <body>
     <h1 class="cim">Karkötők</h1>
-    <div class="p-5 container container-fluid">
-        
+    <div class="container container-fluid">
+
         <div>
-            <nav class="navbar navbar-expand-sm justify-content-center" id="menu1">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link menupont" href="index.html">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menupont" href="marokko.html">Marokkövek</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menupont" href="karkoto.html">Karkötők</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menupont" href="asvanylexikon.html">Ásványlexikon</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menupont" href="rolunk.html">Rólunk</a>
-                </li>
-              </ul>
+            <nav class="navbar navbar-expand-md navbar-light px-4" id="menu1">
+                <a class="navbar-brand cegnev" href="index.html"><i> Kristályok Neked </i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link" href="index.html"> <i class="bi bi-house"></i><br> Főoldal</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link " href="marokko.html"><i class="bi bi-basket"></i><br> Marokkövek</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link active" href="karkoto.html"><i class="bi bi-basket"></i><br> Karkötők</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link " href="asvanylexikon.html"><i class="bi bi-book"></i><br> Ásványlexikon</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link " href="rolunk.html"><i class="bi bi-people"></i><br> Rólunk</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
 
         <div class="row">
-            <div class="col-12 col-lg-3 p-3">
-                <div class="card p-2 kartya ">
-                    <img src="kepek/rozsakvarc.karkotő.jpg" alt="Rózsakvarc" title="Rózsakvarc" class="card-img-top p-2 kepek img-fluid">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
+                <div class="card p-2 kartya">
+                    <img src="kepek/rozsakvarc.karkotő.jpg" alt="Rózsakvarc" title="Rózsakvarc"
+                        class="card-img-top p-2 mx-auto kepek col-sm-4 img-fluid">
                     <div class="card-body">
                         <h4 class="card-title alcim">Rózsakvarc karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#rozsakvarc" class="link1">További tudnivalók a Rózsakvarcról</a></p>
+                        <p class="card-text szoveg"> <a href="asvanylexikon.html#rozsakvarc" class="link1">További
+                                tudnivalók a Rózsakvarcról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/malachit 2.jpg" alt="Malachit" title="Malachit" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/malachit 2.jpg" alt="Malachit" title="Malachit"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Malachit karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#malachit" class="link1">További tudnivalók a Malachitról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#malachit" class="link1">További
+                                tudnivalók a Malachitról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/holko.karkoto.jpg" alt="Holdkő" title="Holdő" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/holko.karkoto.jpg" alt="Holdkő" title="Holdő"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Holdkő karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#holdko" class="link1">További tudnivalók a Holdkőről</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#holdko" class="link1">További
+                                tudnivalók a Holdkőről</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/jaspis.karkoto.jfif" alt="Jáspis" title="Jáspis" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/jaspis.karkoto.jfif" alt="Jáspis" title="Jáspis"
+                        class="card-img-top p-2 kepek img-fluid mx-auto col-sm-4">
                     <div class="card-body">
                         <h4 class="card-title alcim">Jáspis karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#jaspis" class="link1">További tudnivalók a Jáspisról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#jaspis" class="link1">További
+                                tudnivalók a Jáspisról</a></p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12 col-lg-3 p-3">
+
+
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/csakra.karkoto.jpg" alt="7 Csakra" title="7 Csakra" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/csakra.karkoto.jpg" alt="7 Csakra" title="7 Csakra"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">7 Csakra karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#rozsakvarc" class="link1">További tudnivalók a 7 Csakráról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#rozsakvarc"
+                                class="link1">További tudnivalók a 7 Csakráról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/akvamarin.karkoto.jpg" alt="Akvamarin" title="Akvamarin" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/akvamarin.karkoto.jpg" alt="Akvamarin" title="Akvamarin"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Akvamarin karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#akvamarin" class="link1">További tudnivalók a Akvamarinról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#akvamarin"
+                                class="link1">További tudnivalók a Akvamarinról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/ametiszt.karkoto.jfif" alt="Ametiszt" title="Ametiszt" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/ametiszt.karkoto.jfif" alt="Ametiszt" title="Ametiszt"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Ametiszt karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#ametiszt" class="link1">További tudnivalók a Ametisztről</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#ametiszt" class="link1">További
+                                tudnivalók a Ametisztről</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/apatit.karkoto.jpg" alt="Apatit" title="Apatit" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/apatit.karkoto.jpg" alt="Apatit" title="Apatit"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Apatit karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#apatit" class="link1">További tudnivalók a Apatitról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#apatit" class="link1">További
+                                tudnivalók a Apatitról</a></p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12 col-lg-3 p-3">
+
+
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/aventurin.karkoto.jpg" alt="Aventurin" title="Aventurin" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/aventurin.karkoto.jpg" alt="Aventurin" title="Aventurin"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Aventurin karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#aventurin" class="link1">További tudnivalók a Aventurinról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#aventurin"
+                                class="link1">További tudnivalók a Aventurinról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/fluorit.karkoto.jfif" alt="Fluorit" title="Fluorit" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/fluorit.karkoto.jfif" alt="Fluorit" title="Fluorit"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Fluorit karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#fluorit" class="link1">További tudnivalók a Fluoritról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#fluorit" class="link1">További
+                                tudnivalók a Fluoritról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/hegyikristaly.karkoto.jpg" alt="Hegyikristály" title="Hegyikristály" class="card-img-top p-2 kepek img-fluid">
+                    <img src="kepek/hegyikristaly.karkoto.jpg" alt="Hegyikristály" title="Hegyikristály"
+                        class="card-img-top p-2 kepek img-fluid mx-auto">
                     <div class="card-body">
                         <h4 class="card-title alcim">Hegykristály karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#hegyikristaly" class="link1">További tudnivalók a Hegyikristályról</a></p>
+                        <p class="card-text szoveg"> <a További href="asvanylexikon.html#hegyikristaly"
+                                class="link1">További tudnivalók a Hegyikristályról</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-3 p-3">
+            <div class="col-6 col-xl-3 col-lg-4 p-3">
                 <div class="card p-2 kartya">
-                    <img src="kepek/jade.karkoto.jfif" alt="Jade" title="Jade" class="card-img-top p-2 kepek img-fluid">
-                    <div class="card-body">
+                    <img src="kepek/jade.karkoto.jfif" alt="Jade" title="Jade"
+                     class="card-img-top p-2 kepek img-fluid mx-auto>
+                    < div class="card-body">
                         <h4 class="card-title alcim">Jade karkötő</h4>
                         <p class="card-text szoveg1">Ár: 600Ft.-</p>
-                        <p class="card-text szoveg"> <a href="asvanylexikon.html#jade" class="link1">További tudnivalók a Jaderől</a></p>
+                        <p class="card-text szoveg"> <a href="asvanylexikon.html#jade" class="link1">További tudnivalók
+                                a Jaderől</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
